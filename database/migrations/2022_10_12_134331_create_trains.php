@@ -18,7 +18,7 @@ class CreateTrains extends Migration
             $table->string('agency');
             $table->string('start_from');
             $table->string('end_to');
-            $table->string('strating_time');
+            $table->string('starting_time');
             $table->string('arriving_time');
             $table->smallInteger('train_code');
             $table->smallInteger('train_carriage');

@@ -63,7 +63,7 @@ class TrainsTableSeeder extends Seeder
         foreach ($trains as $train) {
             $newTrain = new Train();
             $newTrain->agency = $train['agency'];
-            $newTrain->strat_from = $train['start_from'];
+            $newTrain->start_from = $train['start_from'];
             $newTrain->end_to = $train['end_to'];
             $newTrain->starting_time = $train['starting_time'];
             $newTrain->arriving_time = $train['arriving_time'];
